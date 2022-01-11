@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="doctus-cicdFlow" doc:id="06ed26b4-cb3c-4545-b649-b9fec0c5572a" >
 		<http:listener doc:name="Listener" doc:id="e971c592-ca9d-43ef-a4b5-688f215bae9e" config-ref="HTTP_Listener_config" path="/demo"/>
-		<logger level="INFO" doc:name="Logger" doc:id="893d10b5-4548-4874-a336-5ce4b84825ae" />
+		<logger level="INFO" doc:name="Logger" doc:id="893d10b5-4548-4874-a336-5ce4b84825ae" message="hello"/>
 	</flow>
 </mule>
